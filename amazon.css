@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(249, 245, 240);
+    padding: auto;
+    font-size: xx-large;
+    font-style: italic;
+}
+.header{
+    background-color: aqua;
+    text-align: left;
+    padding: 0px;
+    margin-top: auto;   
+    text-transform: uppercase;
+
+}
+.first{
+    text-align: center;
+    padding: 0.5%;
+    background-color: rgb(164, 212, 215);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px;
+    background-color: #a5e2c3;
+    padding: 1px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+  .cart{
+    text-align: right;
+    font-size: small;
+    padding-left: 10%;
+    margin-left: 5%;
+  }
+.one{
+    padding: 100px;
+    src: url('https://www.amazon.in/s?k=wrist+watch&crid=14QQJB9I0CDTG&sprefix=wrist+watch%2Caps%2C262&ref=nb_sb_noss_2');
+}
+.two{
+    padding: 100px;
+    src: url('https://www.amazon.in/s?k=shoes&ref=nb_sb_noss');
+}
+.three{
+    padding: 100px;
+    src: url('https://www.amazon.in/s?k=makeup+kit+set&crid=1LWW0T8XAHW6A&sprefix=ma%2Caps%2C222&ref=nb_sb_ss_ts-doa-p_1_2');
+}
+.four{
+    padding: 100px;
+    src: url('https://www.amazon.in/s?k=DSLR&crid=1B7GQBX6FFI9P&sprefix=dslr%2Caps%2C199&ref=nb_sb_noss_2');
+}
+.five{
+    padding: 100px;
+    src: url('https://www.amazon.in/s?k=cold+drinks&crid=1OG2ZU2HNPKOF&sprefix=cold+drink%2Caps%2C202&ref=nb_sb_noss_2');
+}
+.six{
+    padding: 100px;
+    src: url('https://www.amazon.in/s?k=dairy+products&crid=1EITFH365HGX&sprefix=dairy+pr%2Caps%2C198&ref=nb_sb_ss_ts-doa-p_1_8');
+}
+.seven{
+    padding: 100px;
+    src: url('https://www.amazon.in/s?k=umbrellas&crid=BEC527T5L6CJ&sprefix=umbrellas%2Caps%2C203&ref=nb_sb_noss_2');
+}
+.eight{
+    padding: 100px;
+    src: url('https://www.amazon.in/s?k=ear+buds&crid=2986CPNSNBL7M&sprefix=ear+buds%2Caps%2C204&ref=nb_sb_noss_2');
+}
+footer{
+    margin-bottom: 5cm;
+}
+
